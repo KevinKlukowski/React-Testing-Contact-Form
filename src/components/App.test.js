@@ -23,7 +23,7 @@ import ContactForm from './ContactForm';
   userEvent.click(submit);
 
   
-  const newContact = await screen.findByText("Leah", { exact: false });
+  const newContact = await screen.findByText("Kevin", { exact: false });
   expect(newContact).toBeInTheDocument();
 }); 
 
